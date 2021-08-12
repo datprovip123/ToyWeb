@@ -3,10 +3,10 @@
 //if (!$connect){
 //echo "ket noi that bai";
 
-$server = "35.172.43.136";
-$username = "datvip";
-$password = "datvip";
-$dbname ="datvip";
+$server = "54.236.43.60";
+$username = "datprovip";
+$password = "datprovip";
+$dbname ="toywebsite";
 $connect = mysqli_connect($server, $username, $password, $dbname);
 }
 ?>
