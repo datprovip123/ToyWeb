@@ -151,7 +151,9 @@ img.d-block {
                 </div>
 
                 <?php
-                include("connect.php")
+                include("connect.php"); 
+                if (!$connect){
+                  echo "ket noi that bai";
                   }
                   $sql ="select * from song";
                     $query=mysqli_query($connect,"select * from song");
