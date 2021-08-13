@@ -76,7 +76,7 @@ img.d-block {
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">Sound Clownz</a>
+                <a class="navbar-brand" href="#">Marvel Store</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -90,8 +90,8 @@ img.d-block {
                                 Song
                             </a>
                             <div class="dropdown-content">
-                                <a class="dropdown-item" href="edit_song.php">Edit Songs</a>
-                                <a class="dropdown-item" href="view_song.php">Song management</a>
+                                <a class="dropdown-item" href="edit_song.php">Edit Toy</a>
+                                <a class="dropdown-item" href="view_song.php">Toy management</a>
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
@@ -100,8 +100,8 @@ img.d-block {
                                 Singer
                             </a>
                             <div class="dropdown-content">
-                                <a class="dropdown-item" href="../Singer/edit_singer.php">Edit Singers</a>
-                                <a class="dropdown-item" href="../Singer/view_singer.php">Singer Management</a>
+                                <a class="dropdown-item" href="../Singer/edit_singer.php">Edit Author</a>
+                                <a class="dropdown-item" href="../Singer/view_singer.php">Author Management</a>
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
