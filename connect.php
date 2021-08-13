@@ -4,5 +4,4 @@ $username = "datprovip";
 $password = "datprovip";
 $dbname ="toywebsite";
 $connect = mysqli_connect($server, $username, $password, $dbname);
-}
 ?>
