@@ -123,7 +123,10 @@ img.d-block {
 <div class="container">
  <div class="row">
  <?php 
-    include("connect.php")
+    include("connect.php"); 
+                if (!$connect){
+                  echo "ket noi that bai";
+                  }
     $id=$_GET["id"];
     $result = mysqli_query( $connect, "SELECT * FROM song,singer,genres Where song.SingerID=singer.SingerID and song.GenresID=genres.GenresID and song.SongID = $id" );
     $song = mysqli_fetch_array( $result );
