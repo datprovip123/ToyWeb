@@ -151,7 +151,7 @@ img.d-block {
                 </div>
 
                 <?php
-                $connect = mysqli_connect('localhost','root','','ToyWebsite');
+                include("connect.php")
                 if (!$connect){
                   echo "ket noi that bai";
                   }
