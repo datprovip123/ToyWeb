@@ -87,7 +87,7 @@ img.d-block {
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" id="navbarDropdown">
-                                Song
+                                Toy
                             </a>
                             <div class="dropdown-content">
                                 <a class="dropdown-item" href="edit_song.php">Edit Toy</a>
@@ -97,7 +97,7 @@ img.d-block {
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" id="navbarDropdown">
-                                Singer
+                                Author
                             </a>
                             <div class="dropdown-content">
                                 <a class="dropdown-item" href="../Singer/edit_singer.php">Edit Author</a>
