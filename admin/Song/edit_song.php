@@ -141,7 +141,7 @@ img.d-block {
          <div class="example">
         <div class="container">
             <form class="row" method="post" enctype="multipart/form-data">
-                <h2>Edit Song</h2>
+                <h2>Edit Products</h2>
                 <table class="table">
                  <?php 
                         include("../../connect.php");
@@ -176,7 +176,7 @@ img.d-block {
                             <td colspan='2'><input type='text' name='SongID' value='$SongID'></td>
                         </tr>
                         <tr>
-                            <td>Name of the song</td>
+                            <td>Name of the Product</td>
                             <td colspan='2'><input type='text' name='SongName' value='$SongName'></td>
                         </tr>
                         <td>Price</td>

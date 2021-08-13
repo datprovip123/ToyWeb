@@ -146,12 +146,12 @@ img.d-block {
     <div class="example">
         <div class="container">
             <div class="row">
-                <h2>Singer Management</h2>
+                <h2>Author Management</h2>
                 <table class="table table-hover" ; style="text-align: center;">
                 <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Singer</th>
+                            <th>Author</th>
                             <th>Action</th>
                         </tr>
                 </thead>

@@ -141,12 +141,12 @@ img.d-block {
    <div class="example">
         <div class="container">
             <div class="row">
-                <h2>Song Management</h2>
+                <h2>Product Management</h2>
                 <table class="table table-bordered" ; style="text-align: center;">
                 <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Name of the song</th>
+                            <th>Name of the Product</th>
                             <th>Price</th>
                             <th>Image</th>
                             <th>Audio</th>

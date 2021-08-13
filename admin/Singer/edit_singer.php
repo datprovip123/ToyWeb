@@ -141,7 +141,7 @@ img.d-block {
          <div class="example">
         <div class="container">
             <form class="row" method="post">
-                <h2>Edit Singer</h2>
+                <h2>Edit Author</h2>
                 <table class="table">
                  <?php 
                         include("../../connect.php");
@@ -162,7 +162,7 @@ img.d-block {
                             <td colspan='2'><input type='text' name='SingerID' value='$SingerID'></td>
                         </tr>
                         <tr>
-                            <td>Name of the singer</td>
+                            <td>Name of the author</td>
                             <td colspan='2'><input type='text' name='SingerName' value='$SingerName'></td>
                         </tr>
                     ";
