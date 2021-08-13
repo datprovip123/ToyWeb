@@ -151,7 +151,7 @@ img.d-block {
                 </div>
 
                 <?php
-                include('connect.php')
+                include("connect.php")
                 if (!$connect){
                   echo "ket noi that bai";
                   }
