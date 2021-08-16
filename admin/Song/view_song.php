@@ -149,9 +149,8 @@ img.d-block {
                             <th>Name of the Product</th>
                             <th>Price</th>
                             <th>Image</th>
-                            <th>Audio</th>
                             <th>Description</th>
-                            <th>Singer ID</th>
+                            <th>Author ID</th>
                             <th>Genres ID</th>
                             <th colspan="2">Action</th>
                         </tr>
@@ -167,7 +166,6 @@ img.d-block {
             $SongName = $song['SongName'];
             $SongPrice = $song['SongPrice'];
             $SongImg = $song['SongImg'];
-            $Mp3 = $song['Mp3'];
             $SongDes = $song['SongDes'];
             $SingerID = $song['SingerID'];
             $GenresID = $song['GenresID'];
@@ -178,7 +176,6 @@ img.d-block {
                <td>$SongName</td>
                <td>$SongPrice</td>
                <td><img src='../../image/$SongImg' width='150' height='150' alt='Hinh Anh'/></td>
-               <td>$Mp3</td>
                <td>$SongDes</td>
                <td>$SingerID</td>
                <td>$GenresID</td>

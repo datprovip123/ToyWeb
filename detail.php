@@ -143,24 +143,6 @@ img.d-block {
           <button type="submit" name="button-buy" class="btn btn-outline-danger">Add to cart</button>
         </form>
 
-
-
-
-        <br>
-          <audio controls controlsList="nodownload" ontimeupdate="myAudio(this)" style="width: 250px">
-          <source src="song/<?php echo $song['Mp3'] ?>" type="audio/mpeg">
-          </audio>
-          <script type="text/javascript">
-            function myAudio(event){
-              if(event.currentTime >60){
-                event.currentTime=0;
-                event.pause();
-                alert ("Buy to continue listening!")
-              }
-            }
-          </script>
-        
-        <br>
         <br>
         <div style="border-bottom: 1px solid black"></div>
         <br>

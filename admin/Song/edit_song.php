@@ -152,7 +152,6 @@ img.d-block {
                     $SingerID='';
                     $GenresID='';
                     $SongImg='';
-                    $Mp3='';                    
                     if (isset($_GET["SongID"])) {    
                         $SongID = intval($_GET['SongID']);
                         $sql = " select* from song where SongID = $SongID";
@@ -164,9 +163,7 @@ img.d-block {
                             $SongDes=$song['SongDes'];
                             $SingerID=$song['SingerID'];
                             $GenresID=$song['GenresID'];
-                            $SongImg =$song['SongImg'];
-                            $Mp3 =$song['Mp3'];                            
-                           
+                            $SongImg =$song['SongImg'];                           
                             
                         }
                     }
@@ -186,7 +183,7 @@ img.d-block {
                             <td>Description</td>
                             <td colspan='2'><input type='text' name='SongDes' value='$SongDes'></td>
                         </tr>
-                        <td>Singer ID</td>
+                        <td>Author ID</td>
                             <td colspan='2'><input type='text' name='SingerID' value='$SingerID'></td>
                         </tr>
                         <tr>
@@ -197,10 +194,7 @@ img.d-block {
                             <td>Image</td>
                             <td colspan='2'><input type='file' name='SongImg' value='$SongImg'></td>
                         </tr>
-                         <tr>
-                            <td>Audio</td>
-                            <td colspan='2'><input type='file' name='Mp3' value='$Mp3'></td>
-                        </tr>
+                        
                     ";
                 ?>
         

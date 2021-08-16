@@ -146,9 +146,7 @@ else{
     <div class="products" style="border: 2px solid black">
     <div><img src="image/<?php echo $item['SongImg']?>" class="img-cart"></div>
     <h2><?php echo $item['SongName'] ?></h2>
-        <audio controls controlsList="autodownload">
-          <source src="song/<?php echo $item['Mp3'] ?>" type="audio/mpeg">
-          </audio>
+        
          </a>
          </div>
            <?php
