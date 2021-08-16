@@ -117,7 +117,7 @@ img.d-block {
 
     </div>
 
-    <h3 style="text-align: center;">Congratulations on your payment and you can now download it</h3>
+    <h3 style="text-align: center;">Order Success</h3>
  <?php 
  require_once("connect.php");
   if($_SERVER['REQUEST_METHOD']=='POST'){
